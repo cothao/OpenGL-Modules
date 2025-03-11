@@ -5,14 +5,14 @@
         {
             "primary-output": "x64\\Debug\\shader.h.obj",
             "outputs": [
-                "C:\\Users\\colli\\Documents\\Projects\\OpenGL_Practice\\OpenGL_Practice\\shader_practice\\x64\\Debug\\vc143.pdb",
+                "C:\\Users\\colli\\Documents\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\x64\\Debug\\vc143.pdb",
                 "x64\\Debug\\",
-                "C:\\Users\\colli\\Documents\\Projects\\OpenGL_Practice\\OpenGL_Practice\\shader_practice\\x64\\Debug\\shader.h.ifc"
+                "C:\\Users\\colli\\Documents\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\x64\\Debug\\shader.h.ifc"
             ],
             "provides": [
                 {
                     "logical-name": "shader.h",
-                    "source-path": "c:\\users\\colli\\documents\\projects\\opengl_practice\\opengl_practice\\shader_practice\\shader.h",
+                    "source-path": "c:\\users\\colli\\documents\\opengl-modules\\opengl_practice\\shader_practice\\shader.h",
                     "lookup-method": "absolute"
                 }
             ],

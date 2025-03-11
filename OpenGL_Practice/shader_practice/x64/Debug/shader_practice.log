@@ -1,5 +1,39 @@
 ﻿  Scanning sources for module dependencies...
+  shader.h
+  Compiling...
+  shader.h
+  bone.cpp
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\bone.cpp(12,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\bone.cpp(24,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\bone.cpp(36,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  camera.cpp
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\camera.cpp(14,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\camera.cpp(15,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\camera.cpp(18,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\camera.cpp(19,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\camera.cpp(21,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\camera.cpp(22,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  module_1_hello_window.cpp
+  module_2_hello_triangle.cpp
+  module_3_shaders.cpp
+  module_4_textures.cpp
+  module_5_transformations.cpp
+  module_6_coordinate_systems.cpp
+  module_7_camera.cpp
+  module_1_colors.cpp
+  module_2_basic_lighting.cpp
+  module_3_materials.cpp
+  module_4_lighting_maps.cpp
+  module_5_light_casters.cpp
+  module_6_multiple_lights.cpp
   module_1_model.cpp
-C:\Users\colli\Documents\Projects\OpenGL_Practice\OpenGL_Practice\shader_practice\modules\Model_Loading\module_1_Model\module_1_model.cpp(84,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Model_Loading\module_1_Model\module_1_model.cpp(84,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  stb_image.cpp
+  textRenderer.cpp
+  Generating Code...
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\bone.cpp(69): warning C4715: 'Bone::GetRotationIndex': not all control paths return a value
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\bone.cpp(60): warning C4715: 'Bone::GetPositionIndex': not all control paths return a value
+C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\shader_practice\bone.cpp(78): warning C4715: 'Bone::GetScaleIndex': not all control paths return a value
+  glad.c
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  shader_practice.vcxproj -> C:\Users\colli\Documents\Projects\OpenGL_Practice\OpenGL_Practice\x64\Debug\shader_practice.exe
+  shader_practice.vcxproj -> C:\Users\colli\Documents\OpenGL-Modules\OpenGL_Practice\x64\Debug\shader_practice.exe
