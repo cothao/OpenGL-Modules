@@ -126,6 +126,9 @@
     <ClCompile Include="modules\Model_Loading\module_1_Model\module_1_model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_OpenGL\module_1_depth_testing\module_1_depth_testing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -211,5 +214,7 @@
     <None Include="modules\Model_Loading\module_1_Model\model_shader.frag" />
     <None Include="modules\Model_Loading\module_1_Model\model_light_shader.vert" />
     <None Include="modules\Model_Loading\module_1_Model\model_light_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_1_depth_testing\depth_testing_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_1_depth_testing\depth_testing_shader.vert" />
   </ItemGroup>
 </Project>
