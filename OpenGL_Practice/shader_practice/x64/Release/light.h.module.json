@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\light.h.obj",
+            "outputs": [
+                "C:\\Users\\colli\\Downloads\\OpenGL_Practice\\OpenGL_Practice\\shader_practice\\x64\\Release\\vc143.pdb",
+                "x64\\Release\\",
+                "C:\\Users\\colli\\Downloads\\OpenGL_Practice\\OpenGL_Practice\\shader_practice\\x64\\Release\\light.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "light.h",
+                    "source-path": "c:\\users\\colli\\downloads\\opengl_practice\\opengl_practice\\shader_practice\\light.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

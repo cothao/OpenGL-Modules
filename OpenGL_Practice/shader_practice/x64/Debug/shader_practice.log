@@ -1,0 +1,5 @@
+﻿  Scanning sources for module dependencies...
+  module_1_model.cpp
+C:\Users\colli\Documents\Projects\OpenGL_Practice\OpenGL_Practice\shader_practice\modules\Model_Loading\module_1_Model\module_1_model.cpp(84,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  shader_practice.vcxproj -> C:\Users\colli\Documents\Projects\OpenGL_Practice\OpenGL_Practice\x64\Debug\shader_practice.exe

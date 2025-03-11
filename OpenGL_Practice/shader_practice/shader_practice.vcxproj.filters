@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{f1c83115-aae1-4c85-b643-9d84745215ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{821356d5-2be7-48bb-ad89-206ca3a679e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{85537c1d-fff8-4381-a295-5b0225d20783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{7411a525-ac58-4227-9d66-452766ba08d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Getting_Started">
+      <UniqueIdentifier>{8697252f-62b7-4055-bdab-cb0ef49d32f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Getting_Started\module_2_hello_triangle">
+      <UniqueIdentifier>{0dda94ae-be4f-462e-810e-395a712a44f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Getting_Started\module_3_shaders">
+      <UniqueIdentifier>{b6a852a3-26c7-49d5-8039-9c74b2d02715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Getting_Started\module_4_textures">
+      <UniqueIdentifier>{e94362a3-ec0e-4c29-9339-ac664e699b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Getting_Started\module_5_transformations">
+      <UniqueIdentifier>{0f13d3f9-21fd-4990-b7c8-350e4d213c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\Getting_Started">
+      <UniqueIdentifier>{452ceebe-558c-4386-9e6a-46f3dfb2109a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Getting_Started\module_6_coordinate_systems">
+      <UniqueIdentifier>{9f72d415-1a32-4394-b139-3f11ed809291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Getting_Started\module_7_camera">
+      <UniqueIdentifier>{6ac9a276-c480-4057-b40b-36211bbdc46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\Lighting">
+      <UniqueIdentifier>{02497191-8f14-44f1-a70b-50efdfa83b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Lighting">
+      <UniqueIdentifier>{f5db1445-d6cc-41af-ab15-53650bd4ce0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Lighting\module_1_colors">
+      <UniqueIdentifier>{410b9695-478a-441a-8219-b602716e51a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Lighting\module_2_basic_lighting">
+      <UniqueIdentifier>{c1e2dc66-7f48-410e-9baa-09f799a7b73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Lighting\module_3_materials">
+      <UniqueIdentifier>{33374d8b-63ff-43a9-b70a-0e73ad7cbbf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Lighting\module_3_materials\module_3_materials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Lighting\module_1_colors\module_1_colors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Lighting\module_2_basic_lighting\module_2_basic_lighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Getting_Started\module_7_camera\module_7_camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Getting_Started\module_6_coordinate_systems\module_6_coordinate_systems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Getting_Started\module_5_transformations\module_5_transformations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Getting_Started\module_4_textures\module_4_textures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Getting_Started\module_3_shaders\module_3_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Getting_Started\module_2_hello_triangle\module_2_hello_triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Getting_Started\module_1_hello_window\module_1_hello_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Lighting\module_4_lighting_maps\module_4_lighting_maps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Lighting\module_5_light_casters\module_5_light_casters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Lighting\module_6_multiple_lights\module_6_multiple_lights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Model_Loading\module_1_Model\module_1_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="textRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="assimpglmhelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\Lighting\module_2_basic_lighting\basic_lighting_shader.vert" />
+    <None Include="shaders\Lighting\module_2_basic_lighting\basic_lighting_shader.frag" />
+    <None Include="shaders\Lighting\module_2_basic_lighting\basic_lighting_light_shader.vert" />
+    <None Include="shaders\Lighting\module_2_basic_lighting\basic_lighting_light_shader.frag" />
+    <None Include="shaders\Lighting\module_1_colors\colors_light_shader.frag" />
+    <None Include="shaders\Lighting\module_1_colors\colors_light_shader.vert" />
+    <None Include="shaders\Lighting\module_1_colors\colors_shader.frag" />
+    <None Include="shaders\Lighting\module_1_colors\colors_shader.vert" />
+    <None Include="shaders\Getting_Started\module_7_camera\camera_shader.frag" />
+    <None Include="shaders\Getting_Started\module_7_camera\camera_shader.vert" />
+    <None Include="shaders\Getting_Started\module_6_coordinate_systems\coordinate_systems_shader.vert" />
+    <None Include="shaders\Getting_Started\module_6_coordinate_systems\coordinate_systems_shader.frag" />
+    <None Include="shaders\Getting_Started\module_5_transformations\transformations_shader.vert" />
+    <None Include="shaders\Getting_Started\module_5_transformations\transformations_shader.frag" />
+    <None Include="shaders\Getting_Started\module_4_textures\textures_shader.vert" />
+    <None Include="shaders\Getting_Started\module_4_textures\textures_shader.frag" />
+    <None Include="shaders\Getting_Started\module_3_shaders\shaders_shader.vert" />
+    <None Include="shaders\Getting_Started\module_3_shaders\shaders_shader.frag" />
+    <None Include="shaders\Getting_Started\module_2_hello_triangle\hello_triangle_shader.vert" />
+    <None Include="shaders\Getting_Started\module_2_hello_triangle\hello_triangle_shader.frag" />
+    <None Include="modules\Lighting\module_1_colors\colors_light_shader.frag" />
+    <None Include="modules\Lighting\module_1_colors\colors_light_shader.vert" />
+    <None Include="modules\Lighting\module_1_colors\colors_shader.frag" />
+    <None Include="modules\Lighting\module_1_colors\colors_shader.vert" />
+    <None Include="modules\Lighting\module_2_basic_lighting\basic_lighting_light_shader.frag" />
+    <None Include="modules\Lighting\module_2_basic_lighting\basic_lighting_light_shader.vert" />
+    <None Include="modules\Lighting\module_2_basic_lighting\basic_lighting_shader.frag" />
+    <None Include="modules\Lighting\module_2_basic_lighting\basic_lighting_shader.vert" />
+    <None Include="modules\Getting_Started\module_7_camera\camera_shader.vert" />
+    <None Include="modules\Getting_Started\module_7_camera\camera_shader.frag" />
+    <None Include="modules\Getting_Started\module_6_coordinate_systems\coordinate_systems_shader.vert" />
+    <None Include="modules\Getting_Started\module_6_coordinate_systems\coordinate_systems_shader.frag" />
+    <None Include="modules\Getting_Started\module_5_transformations\transformations_shader.vert" />
+    <None Include="modules\Getting_Started\module_5_transformations\transformations_shader.frag" />
+    <None Include="modules\Getting_Started\module_4_textures\textures_shader.vert" />
+    <None Include="modules\Getting_Started\module_4_textures\textures_shader.frag" />
+    <None Include="modules\Getting_Started\module_3_shaders\shaders_shader.vert" />
+    <None Include="modules\Getting_Started\module_3_shaders\shaders_shader.frag" />
+    <None Include="modules\Getting_Started\module_2_hello_triangle\hello_triangle_shader.vert" />
+    <None Include="modules\Getting_Started\module_2_hello_triangle\hello_triangle_shader.frag" />
+    <None Include="modules\Lighting\module_3_materials\materials_shader.vert" />
+    <None Include="modules\Lighting\module_3_materials\materials_shader.frag" />
+    <None Include="modules\Lighting\module_3_materials\materials_light_shader.vert" />
+    <None Include="modules\Lighting\module_3_materials\materials_light_shader.frag" />
+    <None Include="modules\Lighting\module_4_lighting_maps\lighting_maps_light_shader.frag" />
+    <None Include="modules\Lighting\module_4_lighting_maps\lighting_maps_light_shader.vert" />
+    <None Include="modules\Lighting\module_4_lighting_maps\lighting_maps_shader.frag" />
+    <None Include="modules\Lighting\module_4_lighting_maps\lighting_maps_shader.vert" />
+    <None Include="modules\Lighting\module_5_light_casters\light_casters_light_shader.frag" />
+    <None Include="modules\Lighting\module_5_light_casters\light_casters_light_shader.vert" />
+    <None Include="modules\Lighting\module_5_light_casters\light_casters_shader.frag" />
+    <None Include="modules\Lighting\module_5_light_casters\light_casters_shader.vert" />
+    <None Include="modules\Lighting\module_6_multiple_lights\multiple_lights_light_shader.frag" />
+    <None Include="modules\Lighting\module_6_multiple_lights\multiple_lights_light_shader.vert" />
+    <None Include="modules\Lighting\module_6_multiple_lights\multiple_lights_shader.frag" />
+    <None Include="modules\Lighting\module_6_multiple_lights\multiple_lights_shader.vert" />
+    <None Include="modules\Model_Loading\module_1_Model\model_shader.vert" />
+    <None Include="modules\Model_Loading\module_1_Model\model_shader.frag" />
+    <None Include="modules\Model_Loading\module_1_Model\model_light_shader.vert" />
+    <None Include="modules\Model_Loading\module_1_Model\model_light_shader.frag" />
+  </ItemGroup>
+</Project>

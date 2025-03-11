@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\shader.h.obj",
+            "outputs": [
+                "C:\\Users\\colli\\Downloads\\OpenGL_Practice\\OpenGL_Practice\\shader_practice\\x64\\Release\\vc143.pdb",
+                "x64\\Release\\",
+                "C:\\Users\\colli\\Downloads\\OpenGL_Practice\\OpenGL_Practice\\shader_practice\\x64\\Release\\shader.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "shader.h",
+                    "source-path": "c:\\users\\colli\\downloads\\opengl_practice\\opengl_practice\\shader_practice\\shader.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

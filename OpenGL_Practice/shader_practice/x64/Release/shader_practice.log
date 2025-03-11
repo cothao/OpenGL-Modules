@@ -1,0 +1,27 @@
+﻿  Scanning sources for module dependencies...
+  engine.cpp
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\animation.h(39,44): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'engine.cpp')
+  
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\engine.cpp(59,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  renderer.cpp
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\animation.h(39,44): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'renderer.cpp')
+  
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(327,52): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(329,52): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(331,52): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(333,52): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(505,14): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(505,14): warning C4305:         with
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(505,14): warning C4305:         [
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(505,14): warning C4305:             T=float
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(505,14): warning C4305:         ]
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(554,41): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(554,41): warning C4244:         with
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(554,41): warning C4244:         [
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(554,41): warning C4244:             T=float
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(554,41): warning C4244:         ]
+C:\Users\colli\Downloads\OpenGL_Practice\OpenGL_Practice\shader_practice\renderer.cpp(672,10): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating code
+LINK : fatal error LNK1257: code generation failed
