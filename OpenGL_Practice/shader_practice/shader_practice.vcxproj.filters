@@ -132,6 +132,9 @@
     <ClCompile Include="modules\Advanced_OpenGL\module_2_stencil_testing\module_2_stencil_testing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_OpenGL\module_3_blending\module_3_blending.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -222,5 +225,8 @@
     <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\stencil_testing_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\stencil_testing_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\shaderSingleColor.frag" />
+    <None Include="modules\Advanced_OpenGL\module_3_blending\blending_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_3_blending\blending_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_3_blending\shaderSingleColor.frag" />
   </ItemGroup>
 </Project>
