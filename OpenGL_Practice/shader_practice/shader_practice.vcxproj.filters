@@ -129,6 +129,9 @@
     <ClCompile Include="modules\Advanced_OpenGL\module_1_depth_testing\module_1_depth_testing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_OpenGL\module_2_stencil_testing\module_2_stencil_testing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -216,5 +219,8 @@
     <None Include="modules\Model_Loading\module_1_Model\model_light_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_1_depth_testing\depth_testing_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_1_depth_testing\depth_testing_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\stencil_testing_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\stencil_testing_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\shaderSingleColor.frag" />
   </ItemGroup>
 </Project>

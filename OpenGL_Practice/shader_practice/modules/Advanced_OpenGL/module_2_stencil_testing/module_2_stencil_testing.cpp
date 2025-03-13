@@ -57,8 +57,10 @@ int main() {
     }
 
     glEnable(GL_DEPTH_TEST);
+    glEnable(GL_STENCIL_TEST);
 
     std::shared_ptr<Shader> shader = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_2_stencil_testing/stencil_testing_shader.vert", "./modules/Advanced_OpenGL/module_2_stencil_testing/stencil_testing_shader.frag"));
+    std::shared_ptr<Shader> shaderSingleColor = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_2_stencil_testing/stencil_testing_shader.vert", "./modules/Advanced_OpenGL/module_2_stencil_testing/shaderSingleColor.frag"));
 
     glm::vec3 cubePositions[] = {
     glm::vec3(0.0f,  0.0f,  0.0f),
@@ -202,7 +204,7 @@ int main() {
         processInput(window);
 
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 
         float currentFrame = glfwGetTime();
         deltaTime = currentFrame - lastFrame;
@@ -228,13 +230,25 @@ int main() {
 
         view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 
-
-
+        glEnable(GL_DEPTH_TEST);
+        glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE); // All fragments within the cubes are replaced with a 1
+        glStencilMask(0x00); // disable writing to the stencil buffer
 
         shader->Use();
 
         shader->SetMat4("view", view);
         shader->SetMat4("projection", projection);
+
+        glBindVertexArray(planeVAO);
+
+        glBindTexture(GL_TEXTURE_2D, metalTexture);
+
+        shader->SetMat4("model", model);
+
+        glDrawArrays(GL_TRIANGLES, 0, 6);
+        // All fragmentrs pass the stencil test
+        glStencilFunc(GL_ALWAYS, 1, 0xFF); // all fragments should pass the stencil test
+        glStencilMask(0xFF);
 
         glBindVertexArray(VAO);
         glActiveTexture(GL_TEXTURE0);
@@ -250,16 +264,39 @@ int main() {
         model = glm::translate(model, glm::vec3(2.0f, 0.0f, 0.0f));
         shader->SetMat4("model", model);
         glDrawArrays(GL_TRIANGLES, 0, 36);
+        // Draw parts od the container where all fragments not equal to 1
+        glStencilFunc(GL_NOTEQUAL, 1, 0xFF);
+        glStencilMask(0x00); // disable writing to the stencil buffer
+        glDisable(GL_DEPTH_TEST);
 
-        glBindVertexArray(planeVAO);
 
-        glBindTexture(GL_TEXTURE_2D, metalTexture);
 
-        shader->SetMat4("model", model);
+        shaderSingleColor->Use();
 
-        glDrawArrays(GL_TRIANGLES, 0, 6);
 
-        glBindVertexArray(0);
+        model = glm::mat4(1.);
+
+        model = glm::translate(model, glm::vec3(-1.0f, 0.0f, -1.0f));
+        model = glm::scale(model, glm::vec3(1.1));
+
+        shaderSingleColor->SetMat4("model", model);
+        shaderSingleColor->SetMat4("view", view);
+        shaderSingleColor->SetMat4("projection", projection);
+
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        model = glm::mat4(1.0f);
+        model = glm::translate(model, glm::vec3(2.0f, 0.0f, 0.0f));
+        model = glm::scale(model, glm::vec3(1.1));
+
+        shaderSingleColor->SetMat4("model", model);
+
+
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        glStencilMask(0xFF);
+        glStencilFunc(GL_ALWAYS, 1, 0xFF);
+        glEnable(GL_DEPTH_TEST);
 
         glfwSwapBuffers(window);
         glfwPollEvents();

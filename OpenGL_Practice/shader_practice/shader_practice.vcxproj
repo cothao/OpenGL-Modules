@@ -140,6 +140,7 @@
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="modules\Advanced_OpenGL\module_1_depth_testing\module_1_depth_testing.cpp" />
+    <ClCompile Include="modules\Advanced_OpenGL\module_2_stencil_testing\module_2_stencil_testing.cpp" />
     <ClCompile Include="modules\Getting_Started\module_1_hello_window\module_1_hello_window.cpp" />
     <ClCompile Include="modules\Getting_Started\module_2_hello_triangle\module_2_hello_triangle.cpp" />
     <ClCompile Include="modules\Getting_Started\module_3_shaders\module_3_shaders.cpp" />
@@ -170,6 +171,9 @@
   <ItemGroup>
     <None Include="modules\Advanced_OpenGL\module_1_depth_testing\depth_testing_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_1_depth_testing\depth_testing_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\shaderSingleColor.frag" />
+    <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\stencil_testing_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_2_stencil_testing\stencil_testing_shader.vert" />
     <None Include="modules\Getting_Started\module_2_hello_triangle\hello_triangle_shader.frag" />
     <None Include="modules\Getting_Started\module_2_hello_triangle\hello_triangle_shader.vert" />
     <None Include="modules\Getting_Started\module_3_shaders\shaders_shader.frag" />
