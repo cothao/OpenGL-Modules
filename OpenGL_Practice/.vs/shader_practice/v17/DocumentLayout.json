@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Model_Loading\\module_1_Model\\module_1_model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Model_Loading\\module_1_Model\\module_1_model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_1_depth_testing\\module_1_depth_testing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_1_depth_testing\\module_1_depth_testing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "module_1_model.cpp",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Model_Loading\\module_1_Model\\module_1_model.cpp",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Model_Loading\\module_1_Model\\module_1_model.cpp",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Model_Loading\\module_1_Model\\module_1_model.cpp",
-              "RelativeToolTip": "shader_practice\\modules\\Model_Loading\\module_1_Model\\module_1_model.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAQwFkAAAAqAAAAAAAAAA==",
+              "Title": "module_1_depth_testing.cpp",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_1_depth_testing\\module_1_depth_testing.cpp",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_1_depth_testing\\module_1_depth_testing.cpp",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_1_depth_testing\\module_1_depth_testing.cpp",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_1_depth_testing\\module_1_depth_testing.cpp",
+              "ViewState": "AgIAAEgBAAAAAAAAAADwv1gBAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T18:18:23.066Z",
+              "WhenOpened": "2025-03-13T01:21:17.168Z",
               "EditorCaption": ""
             }
           ]
