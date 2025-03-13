@@ -1,6 +1,8 @@
 ﻿  Scanning sources for module dependencies...
   module_3_blending.cpp
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_OpenGL\module_3_blending\module_3_blending.cpp(241,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  module_4_face_culling.cpp
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_OpenGL\module_4_face_culling\module_4_face_culling.cpp(241,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
 glad.obj : warning LNK4099: PDB '' was not found with 'glad.obj' or at ''; linking object as if no debug info
 shader.h.obj : warning LNK4099: PDB '' was not found with 'shader.h.obj' or at ''; linking object as if no debug info
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
