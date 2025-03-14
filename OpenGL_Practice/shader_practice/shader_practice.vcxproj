@@ -143,6 +143,7 @@
     <ClCompile Include="modules\Advanced_OpenGL\module_2_stencil_testing\module_2_stencil_testing.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_3_blending\module_3_blending.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_4_face_culling\module_4_face_culling.cpp" />
+    <ClCompile Include="modules\Advanced_OpenGL\module_5_framebuffers\module_5_framebuffers.cpp" />
     <ClCompile Include="modules\Getting_Started\module_1_hello_window\module_1_hello_window.cpp" />
     <ClCompile Include="modules\Getting_Started\module_2_hello_triangle\module_2_hello_triangle.cpp" />
     <ClCompile Include="modules\Getting_Started\module_3_shaders\module_3_shaders.cpp" />
@@ -182,6 +183,11 @@
     <None Include="modules\Advanced_OpenGL\module_4_face_culling\face_culling_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_4_face_culling\face_culling_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_4_face_culling\shaderSingleColor.frag" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_framebuffer_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_framebuffer_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\shaderSingleColor.frag" />
     <None Include="modules\Getting_Started\module_2_hello_triangle\hello_triangle_shader.frag" />
     <None Include="modules\Getting_Started\module_2_hello_triangle\hello_triangle_shader.vert" />
     <None Include="modules\Getting_Started\module_3_shaders\shaders_shader.frag" />

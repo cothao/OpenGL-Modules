@@ -138,6 +138,9 @@
     <ClCompile Include="modules\Advanced_OpenGL\module_4_face_culling\module_4_face_culling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_OpenGL\module_5_framebuffers\module_5_framebuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -234,5 +237,10 @@
     <None Include="modules\Advanced_OpenGL\module_4_face_culling\face_culling_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_4_face_culling\face_culling_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_4_face_culling\shaderSingleColor.frag" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\shaderSingleColor.frag" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_framebuffer_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_framebuffer_shader.vert" />
   </ItemGroup>
 </Project>
