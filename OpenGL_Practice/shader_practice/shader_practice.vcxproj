@@ -144,6 +144,7 @@
     <ClCompile Include="modules\Advanced_OpenGL\module_3_blending\module_3_blending.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_4_face_culling\module_4_face_culling.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_5_framebuffers\module_5_framebuffers.cpp" />
+    <ClCompile Include="modules\Advanced_OpenGL\module_6_cubemaps\module_6_cubemaps.cpp" />
     <ClCompile Include="modules\Getting_Started\module_1_hello_window\module_1_hello_window.cpp" />
     <ClCompile Include="modules\Getting_Started\module_2_hello_triangle\module_2_hello_triangle.cpp" />
     <ClCompile Include="modules\Getting_Started\module_3_shaders\module_3_shaders.cpp" />
@@ -188,6 +189,13 @@
     <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_5_framebuffers\framebuffers_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_5_framebuffers\shaderSingleColor.frag" />
+    <None Include="modules\Advanced_OpenGL\module_6_cubemaps\cubemaps_skybox_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_6_cubemaps\cubemaps_skybox_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_6_cubemaps\cubemaps_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_6_cubemaps\cubemaps_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_6_cubemaps\framebuffers_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_6_cubemaps\framebuffers_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_6_cubemaps\shaderSingleColor.frag" />
     <None Include="modules\Getting_Started\module_2_hello_triangle\hello_triangle_shader.frag" />
     <None Include="modules\Getting_Started\module_2_hello_triangle\hello_triangle_shader.vert" />
     <None Include="modules\Getting_Started\module_3_shaders\shaders_shader.frag" />

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\module_5_framebuffers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\module_5_framebuffers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\module_6_cubemaps.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\module_6_cubemaps.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 520,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "framebuffers_framebuffer_shader.frag",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.frag",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.frag",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.frag",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "cubemaps_shader.vert",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.vert",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.vert",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.vert",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-14T01:42:27.473Z",
+              "WhenOpened": "2025-03-18T04:30:50.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "framebuffers_framebuffer_shader.vert",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.vert",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.vert",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.vert",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\framebuffers_framebuffer_shader.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "cubemaps_shader.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\cubemaps_shader.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-14T01:42:13.503Z",
+              "WhenOpened": "2025-03-18T04:26:11.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "module_5_framebuffers.cpp",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\module_5_framebuffers.cpp",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\module_5_framebuffers.cpp",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\module_5_framebuffers.cpp",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_5_framebuffers\\module_5_framebuffers.cpp",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAAAAgBAAAGAAAAAAAAAA==",
+              "Title": "module_6_cubemaps.cpp",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\module_6_cubemaps.cpp",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\module_6_cubemaps.cpp",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\module_6_cubemaps.cpp",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_6_cubemaps\\module_6_cubemaps.cpp",
+              "ViewState": "AgIAAFABAAAAAAAAAAAAAGUBAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T01:11:25.968Z",
+              "WhenOpened": "2025-03-18T02:52:00.788Z",
               "EditorCaption": ""
             }
           ]
