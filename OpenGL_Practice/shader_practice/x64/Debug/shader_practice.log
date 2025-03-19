@@ -1,4 +1,4 @@
 ﻿  Scanning sources for module dependencies...
-  module_6_cubemaps.cpp
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_OpenGL\module_6_cubemaps\module_6_cubemaps.cpp(307,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  module_7_advanced_glsl.cpp
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_OpenGL\module_7_Advanced_GLSL\module_7_advanced_glsl.cpp(198,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   shader_practice.vcxproj -> C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\x64\Debug\shader_practice.exe

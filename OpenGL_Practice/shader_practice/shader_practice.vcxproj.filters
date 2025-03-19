@@ -144,6 +144,9 @@
     <ClCompile Include="modules\Advanced_OpenGL\module_6_cubemaps\module_6_cubemaps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\module_7_advanced_glsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -252,5 +255,10 @@
     <None Include="modules\Advanced_OpenGL\module_6_cubemaps\shaderSingleColor.frag" />
     <None Include="modules\Advanced_OpenGL\module_6_cubemaps\cubemaps_skybox_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_6_cubemaps\cubemaps_skybox_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\advanced_glsl_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\advanced_glsl_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\cubemaps_skybox_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\cubemaps_skybox_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderSingleColor.frag" />
   </ItemGroup>
 </Project>
