@@ -260,5 +260,9 @@
     <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\cubemaps_skybox_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\cubemaps_skybox_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderSingleColor.frag" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderBlue.frag" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderGreen.frag" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderRed.frag" />
+    <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderYellow.frag" />
   </ItemGroup>
 </Project>

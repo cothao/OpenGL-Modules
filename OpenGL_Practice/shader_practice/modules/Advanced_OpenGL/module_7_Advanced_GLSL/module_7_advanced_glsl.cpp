@@ -65,6 +65,10 @@ int main() {
     glEnable(GL_PROGRAM_POINT_SIZE);
 
     std::shared_ptr<Shader> shader = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_7_advanced_glsl/advanced_glsl_shader.vert", "./modules/Advanced_OpenGL/module_7_advanced_glsl/advanced_glsl_shader.frag"));
+    std::shared_ptr<Shader> shaderRed = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_7_advanced_glsl/advanced_glsl_shader.vert", "./modules/Advanced_OpenGL/module_7_advanced_glsl/shaderRed.frag"));
+    std::shared_ptr<Shader> shaderGreen = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_7_advanced_glsl/advanced_glsl_shader.vert", "./modules/Advanced_OpenGL/module_7_advanced_glsl/shaderGreen.frag"));
+    std::shared_ptr<Shader> shaderBlue = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_7_advanced_glsl/advanced_glsl_shader.vert", "./modules/Advanced_OpenGL/module_7_advanced_glsl/shaderBlue.frag"));
+    std::shared_ptr<Shader> shaderYellow = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_7_advanced_glsl/advanced_glsl_shader.vert", "./modules/Advanced_OpenGL/module_7_advanced_glsl/shaderYellow.frag"));
 
     /*
      * __   _____ ___ _____ ___ ___ ___ ___
@@ -75,47 +79,47 @@ int main() {
      */
 
     float vertices[] = {
-        -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-         0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-         0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-         0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-        -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+        -0.5f, -0.5f, -0.5f,
+         0.5f, -0.5f, -0.5f,
+         0.5f,  0.5f, -0.5f,
+         0.5f,  0.5f, -0.5f,
+        -0.5f,  0.5f, -0.5f,
+        -0.5f, -0.5f, -0.5f,
 
-        -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-         0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-         0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-         0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-        -0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-        -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+        -0.5f, -0.5f,  0.5f,
+         0.5f, -0.5f,  0.5f,
+         0.5f,  0.5f,  0.5f,
+         0.5f,  0.5f,  0.5f,
+        -0.5f,  0.5f,  0.5f,
+        -0.5f, -0.5f,  0.5f,
 
-        -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
-        -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-        -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-        -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-        -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
-        -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+        -0.5f,  0.5f,  0.5f,
+        -0.5f,  0.5f, -0.5f,
+        -0.5f, -0.5f, -0.5f,
+        -0.5f, -0.5f, -0.5f,
+        -0.5f, -0.5f,  0.5f,
+        -0.5f,  0.5f,  0.5f,
 
-         0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
-         0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-         0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-         0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-         0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
-         0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+         0.5f,  0.5f,  0.5f,
+         0.5f,  0.5f, -0.5f,
+         0.5f, -0.5f, -0.5f,
+         0.5f, -0.5f, -0.5f,
+         0.5f, -0.5f,  0.5f,
+         0.5f,  0.5f,  0.5f,
 
-        -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
-         0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
-         0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-         0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-        -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+        -0.5f, -0.5f, -0.5f,
+         0.5f, -0.5f, -0.5f,
+         0.5f, -0.5f,  0.5f,
+         0.5f, -0.5f,  0.5f,
+        -0.5f, -0.5f,  0.5f,
+        -0.5f, -0.5f, -0.5f,
 
-        -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
-         0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
-         0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-         0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-        -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-        -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f
+        -0.5f,  0.5f, -0.5f,
+         0.5f,  0.5f, -0.5f,
+         0.5f,  0.5f,  0.5f,
+         0.5f,  0.5f,  0.5f,
+        -0.5f,  0.5f,  0.5f,
+        -0.5f,  0.5f, -0.5f,
     };
 
     float quadVertices[] = { // vertex attributes for a quad that fills the entire screen in Normalized Device Coordinates.
@@ -140,13 +144,9 @@ int main() {
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
-
     glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
-
-    glEnableVertexAttribArray(1);
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
@@ -164,17 +164,6 @@ int main() {
     unsigned int grassTexture = loadTexture("../images/grass.png");
     unsigned int transparentTexture = loadTexture("../images/blending_transparent_window.png");
 
-    std::vector<std::string> faces
-    {
-        "../images/skybox/right.jpg",
-            "../images/skybox/left.jpg",
-            "../images/skybox/top.jpg",
-            "../images/skybox/bottom.jpg",
-            "../images/skybox/front.jpg",
-            "../images/skybox/back.jpg"
-    };
-
-    unsigned int cubemapTexture = loadCubemap(faces);
 
     shader->Use();
 
@@ -196,6 +185,24 @@ int main() {
 
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
+    unsigned int uniformBlockIndexRed = glGetUniformBlockIndex(shaderRed->ID, "Matrices");
+    unsigned int uniformBlockIndexGreen = glGetUniformBlockIndex(shaderGreen->ID, "Matrices");
+    unsigned int uniformBlockIndexBlue = glGetUniformBlockIndex(shaderBlue->ID, "Matrices");
+    unsigned int uniformBlockIndexYellow = glGetUniformBlockIndex(shaderYellow->ID, "Matrices");
+
+    glUniformBlockBinding(shaderRed->ID, uniformBlockIndexRed, 0);
+    glUniformBlockBinding(shaderGreen->ID, uniformBlockIndexGreen, 0);
+    glUniformBlockBinding(shaderBlue->ID, uniformBlockIndexBlue, 0);
+    glUniformBlockBinding(shaderYellow->ID, uniformBlockIndexYellow, 0);
+
+    unsigned int uboMatrices;
+    glGenBuffers(1, &uboMatrices);
+
+    glBindBuffer(GL_UNIFORM_BUFFER, uboMatrices);
+    glBufferData(GL_UNIFORM_BUFFER, 2 * sizeof(glm::mat4), NULL, GL_STATIC_DRAW);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
+
+    glBindBufferRange(GL_UNIFORM_BUFFER, 0, uboMatrices, 0, 2 * sizeof(glm::mat4));
 
 
     while (!glfwWindowShouldClose(window))
@@ -214,11 +221,15 @@ int main() {
 
         glm::mat4 model = glm::mat4(1.0f);
 
-        glm::mat4 view = glm::mat4(glm::mat3(camera->View));
+    glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)800 / (float)600, 0.1f, 100.0f);
+    glBindBuffer(GL_UNIFORM_BUFFER, uboMatrices);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(projection));
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
-        glm::mat4 projection;
-        projection = glm::perspective(glm::radians(fov), 800.0f / 600.0f, 0.1f, 100.0f);
-
+    glm::mat4 view = camera->View;
+    glBindBuffer(GL_UNIFORM_BUFFER, uboMatrices);
+    glBufferSubData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), sizeof(glm::mat4), glm::value_ptr(view));
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
         /*
          *   ___   _   __  __ ___ ___    _   
          *  / __| /_\ |  \/  | __| _ \  /_\  
@@ -227,18 +238,42 @@ int main() {
          *                                   
          */
 
-        shader->Use();
-
-        view = camera->View;
-        shader->SetVec3("cameraPos", camera->CameraPos);
-        shader->SetMat4("view", view);
-        shader->SetMat4("projection", projection);
+        shaderRed->Use();
 
         glBindVertexArray(VAO);
 
-        model = glm::translate(model, glm::vec3(-1.0f, 0.0f, -1.0f));
+        model = glm::translate(model, glm::vec3(-.75f, 0.75f, -1.0f));
         
-        shader->SetMat4("model", model);
+        shaderRed->SetMat4("model", model);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        shaderGreen->Use();
+
+        glBindVertexArray(VAO);
+
+        model = glm::mat4(1.);
+        model = glm::translate(model, glm::vec3(.75f, 0.75f, -1.0f));
+
+        shaderGreen->SetMat4("model", model);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        shaderYellow->Use();
+
+        glBindVertexArray(VAO);
+        model = glm::mat4(1.);
+        model = glm::translate(model, glm::vec3(-.75f, -.75f, -1.0f));
+
+        shaderYellow->SetMat4("model", model);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        shaderBlue->Use();
+
+        glBindVertexArray(VAO);
+
+        model = glm::mat4(1.);
+        model = glm::translate(model, glm::vec3(.75f, -0.75f, -1.0f));
+
+        shaderBlue->SetMat4("model", model);
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
         glfwSwapBuffers(window);

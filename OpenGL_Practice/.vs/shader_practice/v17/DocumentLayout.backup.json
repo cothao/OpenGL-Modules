@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderYellow.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderYellow.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\module_7_advanced_glsl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\module_7_advanced_glsl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderRed.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderRed.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderGreen.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderGreen.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderBlue.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderBlue.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "advanced_glsl_shader.frag",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.frag",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.frag",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.frag",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Title": "shaderYellow.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderYellow.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderYellow.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderYellow.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderYellow.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-19T00:19:33.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "advanced_glsl_shader.vert",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-19T00:06:09.229Z",
+              "WhenOpened": "2025-03-23T23:00:51.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "shaderRed.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderRed.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderRed.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderRed.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderRed.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-23T22:41:07.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "module_7_advanced_glsl.cpp",
               "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\module_7_advanced_glsl.cpp",
               "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\module_7_advanced_glsl.cpp",
               "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\module_7_advanced_glsl.cpp",
               "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\module_7_advanced_glsl.cpp",
-              "ViewState": "AgIAANgAAAAAAAAAAAAAAOYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEYAAADaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-18T23:59:50.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "shaderBlue.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderBlue.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderBlue.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderBlue.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderBlue.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-23T23:00:34.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "shaderGreen.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderGreen.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderGreen.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderGreen.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\shaderGreen.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-23T23:00:44.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "advanced_glsl_shader.vert",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_7_Advanced_GLSL\\advanced_glsl_shader.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-19T00:06:09.229Z",
               "EditorCaption": ""
             }
           ]
