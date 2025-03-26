@@ -147,6 +147,12 @@
     <ClCompile Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\module_7_advanced_glsl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_OpenGL\module_8_geometry_shader\module_8_geometry_shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Advanced_OpenGL\module_9_instancing\module_9_instancing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -264,5 +270,18 @@
     <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderGreen.frag" />
     <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderRed.frag" />
     <None Include="modules\Advanced_OpenGL\module_7_Advanced_GLSL\shaderYellow.frag" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\geometry_shader_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\geometry_shader_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\shaderBlue.frag" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\shaderGreen.frag" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\shaderRed.frag" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\shaderYellow.frag" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\geometry_shader_shader.geom" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\geometry_shader_normal_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_8_geometry_shader\geometry_shader_normal_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_9_instancing\instancing_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_9_instancing\instancing_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_9_instancing\instancing_asteroid_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_9_instancing\instancing_asteroid_shader.vert" />
   </ItemGroup>
 </Project>

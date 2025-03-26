@@ -1,4 +1,5 @@
 ﻿  Scanning sources for module dependencies...
-  module_7_advanced_glsl.cpp
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_OpenGL\module_7_Advanced_GLSL\module_7_advanced_glsl.cpp(216,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  module_9_instancing.cpp
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_OpenGL\module_9_instancing\module_9_instancing.cpp(306,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_OpenGL\module_9_instancing\module_9_instancing.cpp(339,59): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
   shader_practice.vcxproj -> C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\x64\Debug\shader_practice.exe
