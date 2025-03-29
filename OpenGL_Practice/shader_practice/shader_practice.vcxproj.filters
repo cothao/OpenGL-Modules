@@ -153,6 +153,9 @@
     <ClCompile Include="modules\Advanced_OpenGL\module_9_instancing\module_9_instancing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_OpenGL\module_10_anti_aliasing\module_10_anti_aliasing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -283,5 +286,13 @@
     <None Include="modules\Advanced_OpenGL\module_9_instancing\instancing_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_9_instancing\instancing_asteroid_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_9_instancing\instancing_asteroid_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\instancing_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\instancing_asteroid_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\instancing_asteroid_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\instancing_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_shader.frag" />
+    <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_framebuffer_shader.vert" />
+    <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_framebuffer_shader.frag" />
   </ItemGroup>
 </Project>

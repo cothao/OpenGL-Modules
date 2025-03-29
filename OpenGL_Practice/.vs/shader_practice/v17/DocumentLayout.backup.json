@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\module_9_instancing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\module_9_instancing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_framebuffer_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_framebuffer_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\instancing_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\instancing_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\module_10_anti_aliasing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\module_10_anti_aliasing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 520,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "instancing_shader.vert",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\instancing_shader.vert",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\instancing_shader.vert",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\instancing_shader.vert",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\instancing_shader.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "anti_aliasing_framebuffer_shader.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_framebuffer_shader.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_framebuffer_shader.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_framebuffer_shader.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_framebuffer_shader.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-26T02:53:10.684Z",
+              "WhenOpened": "2025-03-29T21:59:02.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "module_9_instancing.cpp",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\module_9_instancing.cpp",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\module_9_instancing.cpp",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\module_9_instancing.cpp",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_9_instancing\\module_9_instancing.cpp",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAiwJEAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "anti_aliasing_shader.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_shader.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_shader.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_shader.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\anti_aliasing_shader.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-28T03:37:48.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "module_10_anti_aliasing.cpp",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\module_10_anti_aliasing.cpp",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\module_10_anti_aliasing.cpp",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\module_10_anti_aliasing.cpp",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_OpenGL\\module_10_anti_aliasing\\module_10_anti_aliasing.cpp",
+              "ViewState": "AgIAADABAAAAAAAAAAAAAAgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-26T02:35:56.493Z",
+              "WhenOpened": "2025-03-28T03:30:00.588Z",
               "EditorCaption": ""
             }
           ]
