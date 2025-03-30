@@ -139,6 +139,7 @@
     <ClCompile Include="bone.cpp" />
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="glad.c" />
+    <ClCompile Include="modules\Advanced_Lighting\module_01_advanced_lighting\module_01_advanced_lighting.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_10_anti_aliasing\module_10_anti_aliasing.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_1_depth_testing\module_1_depth_testing.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_2_stencil_testing\module_2_stencil_testing.cpp" />
@@ -177,6 +178,8 @@
     <ClInclude Include="textRenderer.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="modules\Advanced_Lighting\module_01_advanced_lighting\advanced_lighting_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_01_advanced_lighting\advanced_lighting_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_framebuffer_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_framebuffer_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_shader.frag" />
