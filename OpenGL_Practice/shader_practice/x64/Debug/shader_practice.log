@@ -1,4 +1,4 @@
 ﻿  Scanning sources for module dependencies...
-  module_02_gamma_correction.cpp
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_Lighting\module_02_gamma_correction\module_02_gamma_correction.cpp(262,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  module_03_shadow_mapping.cpp
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_Lighting\module_03_shadow_mapping\module_03_shadow_mapping.cpp(298,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   shader_practice.vcxproj -> C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\x64\Debug\shader_practice.exe

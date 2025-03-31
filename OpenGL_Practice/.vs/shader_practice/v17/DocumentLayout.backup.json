@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\gamma_correction_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\gamma_correction_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\module_02_gamma_correction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\module_02_gamma_correction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\module_03_shadow_mapping.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\module_03_shadow_mapping.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "gamma_correction_shader.frag",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\gamma_correction_shader.frag",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\gamma_correction_shader.frag",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\gamma_correction_shader.frag",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\gamma_correction_shader.frag",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
+              "Title": "shadow_mapping_shader.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_shader.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_shader.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_shader.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_shader.frag",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-30T03:04:09.184Z",
+              "WhenOpened": "2025-03-30T23:42:26.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "module_02_gamma_correction.cpp",
-              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\module_02_gamma_correction.cpp",
-              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\module_02_gamma_correction.cpp",
-              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\module_02_gamma_correction.cpp",
-              "RelativeToolTip": "shader_practice\\modules\\Advanced_Lighting\\module_02_gamma_correction\\module_02_gamma_correction.cpp",
-              "ViewState": "AgIAAEgBAAAAAAAAAAAiwGcBAAAoAAAAAAAAAA==",
+              "Title": "shadow_mapping_simple_depth_shader.frag",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.frag",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.frag",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.frag",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-30T22:55:47.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "shadow_mapping_simple_depth_shader.vert",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.vert",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.vert",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.vert",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\shadow_mapping_simple_depth_shader.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-30T22:55:13.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "module_03_shadow_mapping.cpp",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\module_03_shadow_mapping.cpp",
+              "RelativeDocumentMoniker": "shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\module_03_shadow_mapping.cpp",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\module_03_shadow_mapping.cpp",
+              "RelativeToolTip": "shader_practice\\modules\\Advanced_Lighting\\module_03_shadow_mapping\\module_03_shadow_mapping.cpp",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAAAB8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-30T03:02:25.574Z",
+              "WhenOpened": "2025-03-30T15:39:47.362Z",
               "EditorCaption": ""
             }
           ]
