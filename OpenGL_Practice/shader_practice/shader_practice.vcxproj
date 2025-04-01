@@ -142,6 +142,7 @@
     <ClCompile Include="modules\Advanced_Lighting\module_01_advanced_lighting\module_01_advanced_lighting.cpp" />
     <ClCompile Include="modules\Advanced_Lighting\module_02_gamma_correction\module_02_gamma_correction.cpp" />
     <ClCompile Include="modules\Advanced_Lighting\module_03_shadow_mapping\module_03_shadow_mapping.cpp" />
+    <ClCompile Include="modules\Advanced_Lighting\module_04_point_shadows\module_04_point_shadows.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_10_anti_aliasing\module_10_anti_aliasing.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_1_depth_testing\module_1_depth_testing.cpp" />
     <ClCompile Include="modules\Advanced_OpenGL\module_2_stencil_testing\module_2_stencil_testing.cpp" />
@@ -190,6 +191,12 @@
     <None Include="modules\Advanced_Lighting\module_03_shadow_mapping\shadow_mapping_shader.vert" />
     <None Include="modules\Advanced_Lighting\module_03_shadow_mapping\shadow_mapping_simple_depth_shader.frag" />
     <None Include="modules\Advanced_Lighting\module_03_shadow_mapping\shadow_mapping_simple_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_simple_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_simple_depth_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_framebuffer_shader.frag" />
     <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_framebuffer_shader.vert" />
     <None Include="modules\Advanced_OpenGL\module_10_anti_aliasing\anti_aliasing_shader.frag" />

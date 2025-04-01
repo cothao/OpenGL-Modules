@@ -165,6 +165,9 @@
     <ClCompile Include="modules\Advanced_Lighting\module_03_shadow_mapping\module_03_shadow_mapping.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_Lighting\module_04_point_shadows\module_04_point_shadows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -313,5 +316,11 @@
     <None Include="modules\Advanced_Lighting\module_03_shadow_mapping\shadow_mapping_depth_shader.vert" />
     <None Include="modules\Advanced_Lighting\module_03_shadow_mapping\shadow_mapping_simple_depth_shader.frag" />
     <None Include="modules\Advanced_Lighting\module_03_shadow_mapping\shadow_mapping_simple_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_simple_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_simple_depth_shader.vert" />
   </ItemGroup>
 </Project>

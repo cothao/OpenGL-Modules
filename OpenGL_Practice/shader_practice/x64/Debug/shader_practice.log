@@ -1,4 +1,8 @@
 ﻿  Scanning sources for module dependencies...
   module_03_shadow_mapping.cpp
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_Lighting\module_03_shadow_mapping\module_03_shadow_mapping.cpp(298,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  module_04_point_shadows.cpp
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\modules\Advanced_Lighting\module_04_point_shadows\module_04_point_shadows.cpp(298,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+glad.obj : warning LNK4099: PDB '' was not found with 'glad.obj' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   shader_practice.vcxproj -> C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\x64\Debug\shader_practice.exe
