@@ -168,6 +168,9 @@
     <ClCompile Include="modules\Advanced_Lighting\module_04_point_shadows\module_04_point_shadows.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Walking_Through_Grass\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -322,5 +325,10 @@
     <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_depth_shader.vert" />
     <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_simple_depth_shader.frag" />
     <None Include="modules\Advanced_Lighting\module_04_point_shadows\shadow_mapping_simple_depth_shader.vert" />
+    <None Include="Walking_Through_Grass\shader.frag" />
+    <None Include="Walking_Through_Grass\shader.vert" />
+    <None Include="Walking_Through_Grass\shader.geom" />
+    <None Include="Walking_Through_Grass\pshader.frag" />
+    <None Include="Walking_Through_Grass\pshader.vert" />
   </ItemGroup>
 </Project>

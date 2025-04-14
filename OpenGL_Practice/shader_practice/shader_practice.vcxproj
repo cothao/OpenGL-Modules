@@ -170,6 +170,7 @@
     <ClCompile Include="shader.h" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="textRenderer.cpp" />
+    <ClCompile Include="Walking_Through_Grass\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assimpglmhelpers.h" />
@@ -310,6 +311,11 @@
     <None Include="shaders\Lighting\module_2_basic_lighting\basic_lighting_light_shader.vert" />
     <None Include="shaders\Lighting\module_2_basic_lighting\basic_lighting_shader.frag" />
     <None Include="shaders\Lighting\module_2_basic_lighting\basic_lighting_shader.vert" />
+    <None Include="Walking_Through_Grass\pshader.frag" />
+    <None Include="Walking_Through_Grass\pshader.vert" />
+    <None Include="Walking_Through_Grass\shader.frag" />
+    <None Include="Walking_Through_Grass\shader.geom" />
+    <None Include="Walking_Through_Grass\shader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
