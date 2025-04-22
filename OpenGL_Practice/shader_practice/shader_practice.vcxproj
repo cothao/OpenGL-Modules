@@ -171,6 +171,7 @@
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="textRenderer.cpp" />
     <ClCompile Include="Walking_Through_Grass\main.cpp" />
+    <ClCompile Include="Walking_Through_Grass_VER_2.0\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assimpglmhelpers.h" />
@@ -316,6 +317,17 @@
     <None Include="Walking_Through_Grass\shader.frag" />
     <None Include="Walking_Through_Grass\shader.geom" />
     <None Include="Walking_Through_Grass\shader.vert" />
+    <None Include="Walking_Through_Grass\skybox_shader.frag" />
+    <None Include="Walking_Through_Grass\skybox_shader.vert" />
+    <None Include="Walking_Through_Grass_VER_2.0\grass_shader.frag" />
+    <None Include="Walking_Through_Grass_VER_2.0\grass_shader.vert" />
+    <None Include="Walking_Through_Grass_VER_2.0\pshader.frag" />
+    <None Include="Walking_Through_Grass_VER_2.0\pshader.vert" />
+    <None Include="Walking_Through_Grass_VER_2.0\shader.frag" />
+    <None Include="Walking_Through_Grass_VER_2.0\shader.geom" />
+    <None Include="Walking_Through_Grass_VER_2.0\shader.vert" />
+    <None Include="Walking_Through_Grass_VER_2.0\skybox_shader.frag" />
+    <None Include="Walking_Through_Grass_VER_2.0\skybox_shader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

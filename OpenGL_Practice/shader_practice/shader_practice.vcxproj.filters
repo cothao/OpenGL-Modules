@@ -171,6 +171,9 @@
     <ClCompile Include="Walking_Through_Grass\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Walking_Through_Grass_VER_2.0\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -330,5 +333,16 @@
     <None Include="Walking_Through_Grass\shader.geom" />
     <None Include="Walking_Through_Grass\pshader.frag" />
     <None Include="Walking_Through_Grass\pshader.vert" />
+    <None Include="Walking_Through_Grass\skybox_shader.frag" />
+    <None Include="Walking_Through_Grass\skybox_shader.vert" />
+    <None Include="Walking_Through_Grass_VER_2.0\pshader.frag" />
+    <None Include="Walking_Through_Grass_VER_2.0\pshader.vert" />
+    <None Include="Walking_Through_Grass_VER_2.0\shader.frag" />
+    <None Include="Walking_Through_Grass_VER_2.0\shader.geom" />
+    <None Include="Walking_Through_Grass_VER_2.0\shader.vert" />
+    <None Include="Walking_Through_Grass_VER_2.0\skybox_shader.frag" />
+    <None Include="Walking_Through_Grass_VER_2.0\skybox_shader.vert" />
+    <None Include="Walking_Through_Grass_VER_2.0\grass_shader.frag" />
+    <None Include="Walking_Through_Grass_VER_2.0\grass_shader.vert" />
   </ItemGroup>
 </Project>

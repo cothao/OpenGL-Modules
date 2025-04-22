@@ -66,8 +66,8 @@
 //    glEnable(GL_BLEND);
 //    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 //
-//    std::shared_ptr<Shader> shader = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_6_cubemaps/cubemaps_shader.vert", "./modules/Advanced_OpenGL/module_6_cubemaps/cubemaps_shader.frag"));
-//    std::shared_ptr<Shader> skyboxShader = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_6_cubemaps/cubemaps_skybox_shader.vert", "./modules/Advanced_OpenGL/module_6_cubemaps/cubemaps_skybox_shader.frag"));
+//    std::shared_ptr<Shader> shader = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_6_cubemaps/cubemaps_shader.vert", "./modules/Advanced_OpenGL/module_6_cubemaps/cubemaps_shader.frag", nullptr));
+//    std::shared_ptr<Shader> skyboxShader = std::shared_ptr<Shader>(new Shader("./modules/Advanced_OpenGL/module_6_cubemaps/cubemaps_skybox_shader.vert", "./modules/Advanced_OpenGL/module_6_cubemaps/cubemaps_skybox_shader.frag", nullptr));
 //
 //    /*
 //     * __   _____ ___ _____ ___ ___ ___ ___

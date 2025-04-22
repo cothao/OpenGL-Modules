@@ -233,7 +233,7 @@
 //
 //    glVertexAttribDivisor(3, 1);
 //    glVertexAttribDivisor(4, 1);
-//    glVertexAttribDivisor(5, 1);
+//    glVertexAttribDivisor(5, 1); 
 //    glVertexAttribDivisor(6, 1);
 //    glBindVertexArray(0);
 //
