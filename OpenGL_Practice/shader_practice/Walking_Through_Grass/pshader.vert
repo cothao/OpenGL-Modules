@@ -7,14 +7,13 @@ layout (std140) uniform Matrices
 {
 
     mat4 projection;
-    mat4 view;
-
 };
 
 uniform mat4 model;
+uniform mat4 view;
 
 void main()
 {    
-    mat3 normalMatrix = mat3(transpose(inverse(view * model)));
-    gl_Position = projection * view * model * vec4(aPos, 1.0); 
+    mat3 normalMatrix = mat3(transpose(inverse(view * instancedMatrix)));
+    gl_Position = projection * view * instancedMatrix * vec4(aPos, 1.0); 
 }
