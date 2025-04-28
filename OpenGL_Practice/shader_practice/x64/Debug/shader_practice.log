@@ -1,10 +1,9 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Walking_Through_Grass\main.cpp, Walking_Through_Grass_VER_2.0\main.cpp.
   Scanning sources for module dependencies...
   main.cpp
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(156,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(157,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(161,27): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(156,26): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(157,26): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(160,27): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(300,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(363,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\shader_practice\Walking_Through_Grass\main.cpp(146,15): warning C4101: 'randomCurveInfluences': unreferenced local variable
   shader_practice.vcxproj -> C:\Users\colli\Documents\Projects\OpenGL-Modules\OpenGL_Practice\x64\Debug\shader_practice.exe

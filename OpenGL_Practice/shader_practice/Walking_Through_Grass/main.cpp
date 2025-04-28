@@ -20,14 +20,14 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 unsigned int loadTexture(char const* path);
 unsigned int loadCubemap(std::vector<std::string> faces);
 
-glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+glm::vec3 cameraPos = glm::vec3(0.0f, 7.0f, 3.0f);
 glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 float deltaTime = 0.0f;	// Time between current frame and last frame
 float lastFrame = 0.0f; // Time of last frame
 float lastX = 400, lastY = 300;
 float yaw = -90.0f;
-float pitch = 0.0f;
+float pitch = 90.0f;
 bool firstMouse = true;
 bool blinn = true;
 float fov = 45.f;
@@ -140,28 +140,28 @@ int main() {
              .1f, -0.5f, -.1f,  0.0f, 1.0f, 0.0f,
         };
 
-        const int amount = 10000;
+        const int amount = 1000000;
         int count = 0;
-        glm::mat4 matrices[amount];
-        float randomCurveInfluences[amount];
+        std::vector<glm::mat4> matrices(amount);
+        float randomCurveInfluences(amount);
 
-        for (float x = 0.; x < 100; x+=1.)
+        for (float x = 0.; x < 1000; x+=1.)
         {
 
-            for (float z = 0.; z < 100; z += 1.)
+            for (float z = 0.; z < 1000; z += 1.)
             {
 
                 glm::mat4 model = glm::mat4(1.);
 
-                float tx = (rand() % 20) - 2.5;
-                float tz = (rand() % 20) - 2.5;
+                float tx = (rand() % 250) - 125;
+                float tz = (rand() % 250) - 125;
 
-                model = glm::translate(model, glm::vec3(tx, 0., tz));
 
                 float rot = rand() % 360;
 
+                model = glm::translate(model, glm::vec3(tx, 0., tz));
                 model = glm::rotate(model, glm::radians(rot), glm::vec3(0., 1. , 0.));
-                model = glm::scale(model, glm::vec3(10., 0., 10.));
+                model = glm::scale(model, glm::vec3(50., 0., 50.));
 
                 matrices[count++] = model;
 
@@ -352,8 +352,8 @@ int main() {
 
         glBindVertexArray(VAO);
 
-        glDrawArraysInstanced(GL_TRIANGLES, 0, 6, 10000);
-        glDrawArrays(GL_TRIANGLES, 0, 6);
+        //glDrawArraysInstanced(GL_TRIANGLES, 0, 6, 100000);
+        //glDrawArrays(GL_TRIANGLES, 0, 6);
 
         shader.Use();
 
@@ -362,7 +362,7 @@ int main() {
         shader.SetMat4("projection", projection);
         shader.SetFloat("time", glfwGetTime());
 
-        glDrawArraysInstanced(GL_POINTS,0, 6, 10000);
+        glDrawArraysInstanced(GL_POINTS,0, 1, 1000000);
 
         //glDrawArrays(GL_POINTS,0,6);
 

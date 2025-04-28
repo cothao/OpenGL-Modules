@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\shader.geom||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\Walking_Through_Grass\\shader.geom||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\Walking_Through_Grass\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\Walking_Through_Grass\\shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\shader.geom||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\Walking_Through_Grass\\shader.geom||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|solutionrelative:shader_practice\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69A06071-86EE-4C6F-9C10-3F39EE84D136}|shader_practice\\shader_practice.vcxproj|C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -26,37 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 520,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "shader.geom",
               "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\shader.geom",
               "RelativeDocumentMoniker": "shader_practice\\Walking_Through_Grass\\shader.geom",
               "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\shader.geom",
               "RelativeToolTip": "shader_practice\\Walking_Through_Grass\\shader.geom",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwC8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-23T02:53:03.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "camera.h",
+              "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\camera.h",
+              "RelativeDocumentMoniker": "shader_practice\\camera.h",
+              "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\camera.h",
+              "RelativeToolTip": "shader_practice\\camera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-27T17:30:56.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\main.cpp",
               "RelativeDocumentMoniker": "shader_practice\\Walking_Through_Grass\\main.cpp",
               "ToolTip": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\main.cpp",
               "RelativeToolTip": "shader_practice\\Walking_Through_Grass\\main.cpp",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAowJ4AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAtwJwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-23T02:30:43.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "shader.frag",
               "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\shader.frag",
               "RelativeDocumentMoniker": "shader_practice\\Walking_Through_Grass\\shader.frag",
@@ -64,12 +81,11 @@
               "RelativeToolTip": "shader_practice\\Walking_Through_Grass\\shader.frag",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-23T02:28:06.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T02:28:06.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "shader.vert",
               "DocumentMoniker": "C:\\Users\\colli\\Documents\\Projects\\OpenGL-Modules\\OpenGL_Practice\\shader_practice\\Walking_Through_Grass\\shader.vert",
               "RelativeDocumentMoniker": "shader_practice\\Walking_Through_Grass\\shader.vert",
