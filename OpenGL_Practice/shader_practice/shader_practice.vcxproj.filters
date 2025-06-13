@@ -174,6 +174,33 @@
     <ClCompile Include="Walking_Through_Grass_VER_2.0\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modules\Advanced_Lighting\module_05_normal_mapping\module_05_point_shadows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Advanced_Lighting\module_05_normal_mapping\module_05_normal_mapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Advanced_Lighting\module_06_parallax_mapping\module_06_parallax_mapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Advanced_Lighting\module_07_hdr\module_07_hdr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Advanced_Lighting\module_08_bloom\module_08_bloom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Advanced_Lighting\module_09_deferred_shading\module_09_deferred_shading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Advanced_Lighting\module_10_ssao\module_10_ssao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PBR\02_PBR\02_pbr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PBR\03_IBL\03_ibl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -344,5 +371,83 @@
     <None Include="Walking_Through_Grass_VER_2.0\skybox_shader.vert" />
     <None Include="Walking_Through_Grass_VER_2.0\grass_shader.frag" />
     <None Include="Walking_Through_Grass_VER_2.0\grass_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_simple_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_simple_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_04_point_shadows\point_shadows_simple_depth_shader.geom" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\anti_aliasing_framebuffer_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\anti_aliasing_framebuffer_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\geometry_shader_normal_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\geometry_shader_normal_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\geometry_shader_shader.geom" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\point_shadows_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\point_shadows_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\point_shadows_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\point_shadows_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\point_shadows_simple_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\point_shadows_simple_depth_shader.geom" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\point_shadows_simple_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\normal_mapping_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\normal_mapping_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\normal_mapping_simple_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\normal_mapping_simple_depth_shader.geom" />
+    <None Include="modules\Advanced_Lighting\module_05_normal_mapping\normal_mapping_simple_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_06_parallax_mapping\parallax_mapping_simple_depth_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_06_parallax_mapping\parallax_mapping_simple_depth_shader.geom" />
+    <None Include="modules\Advanced_Lighting\module_06_parallax_mapping\parallax_mapping_simple_depth_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_06_parallax_mapping\parallax_mapping_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_06_parallax_mapping\parallax_mapping_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_07_hdr\hdr_fb_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_07_hdr\hdr_fb_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_07_hdr\hdr_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_07_hdr\hdr_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\bloom_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\bloom_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\bloom_fb_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\bloom_fb_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\light_shader.frag" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\light_shader.vert" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\bloom.frag" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\bloom.vert" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\bloom_final.frag" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\bloom_final.vert" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\blur.frag" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\blur.vert" />
+    <None Include="modules\Advanced_Lighting\module_08_bloom\light_box.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\bloom.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\bloom.vert" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\bloom_final.vert" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\bloom_final.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\blur.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\blur.vert" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\light_box.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\gbuffer.vert" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\gbuffer.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\deferredShading.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\deferredShading.vert" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\lightShader.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\lightShader.vert" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\lightBox.frag" />
+    <None Include="modules\Advanced_Lighting\module_09_deferred_shading\lightBox.vert" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\lightBox.vert" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\lightBox.frag" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\gbuffer.vert" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\gbuffer.frag" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\deferredShading.vert" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\deferredShading.frag" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\ssao.frag" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\ssao.vert" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\blur.frag" />
+    <None Include="modules\Advanced_Lighting\module_10_ssao\blur.vert" />
+    <None Include="modules\PBR\02_PBR\pbr.frag" />
+    <None Include="modules\PBR\02_PBR\pbr.vert" />
+    <None Include="modules\PBR\03_IBL\ibl.vert" />
+    <None Include="modules\PBR\03_IBL\ibl.frag" />
+    <None Include="modules\PBR\03_IBL\hdr.frag" />
+    <None Include="modules\PBR\03_IBL\hdr.vert" />
+    <None Include="modules\PBR\03_IBL\cubemapShader.vert" />
+    <None Include="modules\PBR\03_IBL\cubemapShader.frag" />
+    <None Include="modules\PBR\03_IBL\convolution.frag" />
   </ItemGroup>
 </Project>

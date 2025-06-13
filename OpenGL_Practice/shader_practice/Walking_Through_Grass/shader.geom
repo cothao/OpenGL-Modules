@@ -48,8 +48,6 @@ void createLine(int index)
 	fColor = vec4(0., .4, 0., 1.);
 
 	float influence = ((sin(time * gs_in[index].randomCurve * .2) + .5)/2) * fract(gs_in[index].randomCurve);
-//	float influence = ((sin(gs_in[index].randomCurve * .2) + 1)/2);
-//	float grassWidth = gs_in[index].randomCurve * .2;
 	float grassWidth = 4.;
 	float grassColor = 0.;
 
